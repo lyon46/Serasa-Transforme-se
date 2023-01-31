@@ -1,0 +1,106 @@
+body {
+	width: 940px;
+	background-color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0.2em 0.25em;
+	margin-left:auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+p {
+	text-align: justify;
+}
+
+.historia-internet {
+	color: #3D3D3D;
+	background-color: #E1EDF2;
+	padding: 80px;
+}
+
+.subtitulo {
+	border-bottom: 5px  black;
+	border-bottom-style:solid;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  figure {
+	padding: 15px;
+	margin-left: 30px;
+  }
+
+.figure-1 {
+    max-width: 550px;
+    max-height: 550px;
+    margin-left:auto;
+    margin-right:auto;
+    float:center;
+    
+   
+}
+
+.figure-2 {
+    max-height: 275px;
+    max-width: 275px;
+    float: right;
+}
+
+  figure figcaption {
+	color: #D3D3D3;
+    text-align: center;
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.cabecalhoPrincipal {
+	background-color: #5da05d;
+	padding: 0.05px 0;
+}
+
+.cabecalhoPrincipal-logo {
+	padding-bottom: 30px;
+	background-color: #5da05d;
+	
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.cabecalhoPrincipal-nav-link {
+	padding: 15px;
+	margin: 15px;
+	margin-bottom: 10px;
+	color: white;
+	background-color: rgb(33, 30, 231);
+	text-decoration:none;
+	transition: .5s;
+	display: block;
+	border-radius: 4em;
+	border-bottom: 1px #9799A6;
+}
+
+footer {
+	background-color: #e4dcf5;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
